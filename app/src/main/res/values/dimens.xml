@@ -1,0 +1,41 @@
+<resources>
+    <dimen name="message_bubble_marginFarSide">48dp</dimen>
+    <dimen name="message_bubble_marginHorizontal">@dimen/message_bubble_marginVertical</dimen>
+    <dimen name="message_bubble_marginVertical">8dp</dimen>
+    <dimen name="message_bubble_marginInner">10dp</dimen>
+    <dimen name="message_bubble_cornerRadius">10dp</dimen>
+    <dimen name="message_bubble_shadowRadius">2dp</dimen>
+    <dimen name="message_bubble_textSize_little">12sp</dimen>
+
+    <dimen name="message_bubble_text_marginTop">4dp</dimen>
+    <dimen name="message_bubble_time_marginHorizontal">6dp</dimen>
+
+    <dimen name="message_bubble_image_maxWidth">256dp</dimen>
+    <dimen name="message_bubble_image_maxHeight">160dp</dimen>
+    <dimen name="message_bubble_image_minHeight">32dp</dimen>
+    <dimen name="message_bubble_image_minWidth">@dimen/message_bubble_image_minHeight</dimen>
+
+    <dimen name="message_avatar_size">48dp</dimen>
+    <dimen name="message_avatar_marginHorizontal">4dp</dimen>
+    <dimen name="message_avatar_marginVertical">6dp</dimen>
+
+    <dimen name="chat_textField_cornerRadius">1dp</dimen>
+    <dimen name="chat_textField_shadowRadius">6dp</dimen>
+    <dimen name="chat_textField_marginHorizontal">8dp</dimen>
+    <dimen name="chat_sendButton_width">64dp</dimen>
+    <dimen name="chat_sendButton_height">48dp</dimen>
+
+    <dimen name="login_logo_size">128dp</dimen>
+    <dimen name="login_logo_marginTop">32dp</dimen>
+    <dimen name="login_logo_textSize">40sp</dimen>
+    <dimen name="login_logo_textSize_little">16sp</dimen>
+
+    <dimen name="login_warning_marginHorizontal">8dp</dimen>
+    <dimen name="login_warning_marginTop">32dp</dimen>
+    <dimen name="login_button_marginBottom">16dp</dimen>
+
+    <dimen name="login_textField_margin">8dp</dimen>
+    <dimen name="login_textField_marginTop">16dp</dimen>
+    <dimen name="login_textField_marginMain">16dp</dimen>
+    <dimen name="login_textField_textSize">16sp</dimen>
+</resources>

@@ -1,0 +1,31 @@
+<resources>
+    <string name="app_name">Wello Chat</string>
+    <string name="texti_field_hint">Enter your text here…</string>
+    <string name="title_activity_login">Sign in</string>
+
+    <!-- Strings related to login -->
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password (optional)</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="error_invalid_email">This email address is invalid</string>
+    <string name="error_invalid_password">This password is too short</string>
+    <string name="error_incorrect_password">This password is incorrect</string>
+    <string name="error_field_required">This field is required</string>
+    <string name="permission_rationale">"Contacts permissions are needed for providing email
+        completions."
+    </string>
+
+    <string name="title_activity_photo">PhotoActivity</string>
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
+    <string name="message_image">message_image</string>
+    <string name="chat">Chat</string>
+    <string name="wello">wello</string>
+    <string name="warning_login">You need to sign in with your Google account to enter the chat.</string>
+    <string name="menu_sign_out">Sign out of your account</string>
+    <string name="warning_sign_up_failed">Signing up is failed. Try again.</string>
+    <string name="nickname">Nickname</string>
+    <string name="error_field_empty">The field must be filled</string>
+    <string name="error_long_nickname">Nickname is too long</string>
+</resources>

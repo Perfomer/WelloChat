@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/i_message_author_pic"
+        style="@style/MessageAuthorPicture"
+        android:layout_width="@dimen/message_avatar_size"
+        android:layout_height="@dimen/message_avatar_size"
+        android:layout_marginStart="@dimen/message_avatar_marginHorizontal"
+        android:layout_marginTop="@dimen/message_avatar_marginVertical"
+        app:layout_constraintBottom_toBottomOf="@+id/i_message_card"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:src="@drawable/app_icon_l" />
+
+    <android.support.v7.widget.CardView
+        android:id="@+id/i_message_card"
+        style="@style/MessageBubble"
+        android:layout_marginEnd="@dimen/message_bubble_marginFarSide"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintLeft_toRightOf="@+id/i_message_author_pic"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <android.support.constraint.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/i_message_nickname"
+                style="@style/MessageName"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/message_bubble_marginInner"
+                android:gravity="start"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                tools:text="Nickname" />
+
+            <TextView
+                android:id="@+id/i_message_time"
+                style="@style/MessageTime"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="@dimen/message_bubble_marginInner"
+                android:layout_marginStart="@dimen/message_bubble_time_marginHorizontal"
+                android:gravity="end"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintLeft_toRightOf="@+id/i_message_nickname"
+                app:layout_constraintRight_toRightOf="parent"
+                app:layout_constraintTop_toTopOf="@+id/i_message_nickname"
+                tools:text="16:03" />
+
+            <!-- Unfortunately, ConstraintLayout cant handle wrap_content correctly, so I added a wrap. -->
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintRight_toRightOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/i_message_nickname"
+                app:layout_constraintVertical_bias="0.0">
+
+                <TextView
+                    android:id="@+id/i_message_text"
+                    style="@style/MessageText"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    tools:text="Longest message ever, I tell you! Just check it: layout scaling correctly. Incredible!" />
+
+            </RelativeLayout>
+
+            <ImageView
+                android:id="@+id/i_message_image"
+                style="@style/MessageImage"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:contentDescription="@string/message_image"
+                android:visibility="gone"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintRight_toRightOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/i_message_time"
+                app:layout_constraintVertical_bias="0.0"
+                tools:src="@drawable/logo" />
+
+        </android.support.constraint.ConstraintLayout>
+    </android.support.v7.widget.CardView>
+
+</LinearLayout>

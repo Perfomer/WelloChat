@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "419920232500",
+    "firebase_url": "https://fir-realtimechat-849b7.firebaseio.com",
+    "project_id": "fir-realtimechat-849b7",
+    "storage_bucket": "fir-realtimechat-849b7.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:419920232500:android:e30881c469c34c3c",
+        "android_client_info": {
+          "package_name": "com.volkovmedia.perfo.firebaserealtimechat"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "419920232500-qoak7ia4mlvr0qc320p7u8dcq9jd1uv1.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.volkovmedia.perfo.firebaserealtimechat",
+            "certificate_hash": "bf88605e709d312bd8b1cd8970a95fca614327cb"
+          }
+        },
+        {
+          "client_id": "419920232500-emjcc9ch712ehblqlfgjncgqog22120h.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA73zKu4EZeo-Ahu63PTQ0Qk0309lCnBms"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "419920232500-emjcc9ch712ehblqlfgjncgqog22120h.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

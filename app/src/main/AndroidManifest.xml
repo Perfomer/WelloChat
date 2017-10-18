@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.volkovmedia.perfo.firebaserealtimechat">
+
+    <uses-permission android:name="android.permission.GET_ACCOUNTS" />
+    <uses-permission android:name="android.permission.READ_PROFILE" />
+
+    <application
+        android:name=".general.ChatApplication"
+        android:allowBackup="true"
+        android:icon="@drawable/logo_mini"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/logo_mini"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".activities.ChatActivity"
+            android:theme="@style/FirstActivityTheme">
+
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name=".activities.LoginActivity"
+            android:label="@string/title_activity_login"
+            android:theme="@style/NoActionBarTheme" />
+
+        <activity
+            android:name=".activities.PhotoActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:label="@string/title_activity_photo"
+            android:theme="@style/FullscreenTheme" />
+
+    </application>
+
+</manifest>

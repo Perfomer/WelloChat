@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#00bff3</color>
+    <color name="colorPrimaryDark">#00a8d6</color>
+    <color name="colorAccent">#ff8a14</color>
+    <color name="background">#f3f7f8</color>
+
+    <color name="white">#fff</color>
+    <color name="black">#000000</color>
+
+    <color name="bubbleUser">#d0f9ff</color>
+    <color name="bubbleInterlocutor">@color/white</color>
+
+    <color name="black_overlay">#66000000</color>
+</resources>
