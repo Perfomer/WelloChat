@@ -1,4 +1,4 @@
-# WelloChat-2017
+# Wello Chat (2017)
 **Realtime chat app for Android OS with Google Auth.**
 
 ## Used technologies
